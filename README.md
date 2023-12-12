@@ -7,6 +7,27 @@ spring.datasource.username=root
 spring.datasource.password=sapassword
 spring.jpa.hibernate.ddl-auto=update
 
+
+
+
+spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+spring.datasource.url=jdbc:mariadb://localhost:3306/onckSecurity?createDatabaseIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=sapassword
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+
+spring.h2.console.enabled=true
+#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.security.user.name=truc
+spring.security.user.password=truc
+
+spring.main.allow-circular-references=true
+
+
+
+
 build gradle
 dependencies {
 	implementation 'net.datafaker:datafaker:2.0.2'
